@@ -32,9 +32,10 @@ export interface PricePrice extends Schema.Component {
   info: {
     displayName: 'price';
     icon: 'arrowRight';
+    description: '';
   };
   attributes: {
-    size: Attribute.String & Attribute.Required;
+    size: Attribute.String;
     price: Attribute.String & Attribute.Required;
   };
 }

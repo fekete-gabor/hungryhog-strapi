@@ -2,13 +2,14 @@
   "collectionName": "components_price_prices",
   "info": {
     "displayName": "price",
-    "icon": "arrowRight"
+    "icon": "arrowRight",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "size": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "price": {
       "type": "string",
