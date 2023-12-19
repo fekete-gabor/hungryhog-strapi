@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "environments",
+  "info": {
+    "singularName": "environment",
+    "pluralName": "environments",
+    "displayName": "environment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

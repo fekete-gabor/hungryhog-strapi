@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string",
+      "required": false,
+      "default": "8900 Zalaegerszeg, Kossuth u. 16"
+    },
+    "email": {
+      "type": "string",
+      "default": "info@hungryhog.com"
+    },
+    "phone_number": {
+      "type": "string",
+      "default": "+3630/123-4567"
+    },
+    "nyitvatartas": {
+      "displayName": "day",
+      "type": "component",
+      "repeatable": true,
+      "component": "day-start.day"
+    }
+  }
+}

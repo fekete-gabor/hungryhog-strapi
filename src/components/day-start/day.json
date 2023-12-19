@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_day_start_days",
+  "info": {
+    "displayName": "day",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "day_start": {
+      "type": "string"
+    },
+    "day_end": {
+      "type": "string"
+    },
+    "hour_start": {
+      "type": "string"
+    },
+    "hour_end": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
+      "required": false,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus tempus felis vehicula aliquam. Donec nisi odio, cursus vel volutpat ac, congue vitae arcu. Sed lacinia viverra massa, ac bibendum lorem. Integer id erat elit. Nunc augue elit, molestie vitae varius eget, pretium et mi. Etiam semper hendrerit felis, id rhoncus erat maximus sed. Ut tempor sit amet nisl in condimentum. Nunc tristique lacus eros, id eleifend mi sagittis at."
+    },
+    "ingredients": {
+      "displayName": "ingredients",
+      "type": "component",
+      "repeatable": true,
+      "component": "ingredient.ingredients"
+    },
+    "price": {
+      "displayName": "price",
+      "type": "component",
+      "repeatable": true,
+      "component": "price.price"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
